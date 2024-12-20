@@ -1,7 +1,6 @@
 // JS is a dynamically typed language .Because data type will automatically assigned at the time of Compilation or Code excution.
 // Primitive Datatype :-
-
-    string, number, boolean, Null, undefined, Symbol
+    // string, number, boolean, Null, undefined, Symbol
     const score = 100
     const scoreValue = 100.3
     
