@@ -26,4 +26,4 @@ let score2 = 200
 let score3 = 300
 
 console.log("A ->", score1,score2,score3)
-console.log("B ->",Array.of(score1,score2,score3))
+console.log("B ->",Array.of(score1,score2,score3)) 
