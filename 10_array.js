@@ -1,29 +1,29 @@
 // Array :-
 
 const myArr = [0,1,2,3,4,5,6,7]
-// const myname = ["ayush",'kumar','rana']
-// console.log(myArr[5])
-// console.log(myname)
+const myname = ["ayush",'kumar','rana']
+console.log(myArr[5])
+console.log(myname)
 
-// const myArr2 = new Array(1,2,3,4)
-// console.log(myArr[1])
-// console.log(myArr2[3])
+const myArr2 = new Array(1,2,3,4)
+console.log(myArr[1])
+console.log(myArr2[3])
 
 
-// // Array methods :-
+// Array methods :-
 
-// myArr.push(6,7,8,9)
-// myArr.pop()
-// console.log(myArr)
+myArr.push(6,7,8,9)
+myArr.pop()
+console.log(myArr)
 
-// myArr.unshift(3)          //means the number will add at starting.
-// console.log(myArr)
+myArr.unshift(3)          //means the number will add at starting.
+console.log(myArr)
 
-// myArr.shift()             //It remove the first element
-// console.log(myArr)
+myArr.shift()             //It remove the first element
+console.log(myArr)
 
-// console.log(myArr.includes(9))
-// console.log(myArr.indexOf(9))
+console.log(myArr.includes(9))
+console.log(myArr.indexOf(9))
 
 
 
