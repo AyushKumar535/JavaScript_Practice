@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ayush Kumar</h1>
+    <button id="stop">STOP</button>
+</body>
+
+
+
+<!-- Set Interval ->(it's like a breakpoint) means asking for the interval like for 2 sec and after that it will continue all the process simaultenously -->
+<!-- Set Timeout -> In this give me a this much time to execute. -->
+
+<script>
+    // setTimeout(function(){
+    //     console.log("Ayush")
+    // },2000)
+
+            //or
+
+    const sayHello = function(){
+        console.log("Ayush")
+    }
+    setTimeout(sayHello,2000)
+
+
+    //To change H1 :-
+    document.querySelector('h1').innerHTML = "Best JS video"
+
+            // or to show after a second
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Best JS video..."
+    }
+    const changeme = setTimeout(changeText,2000)
+
+            // clearTimeout() -> it will stop the changing thing
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeme)
+        console.log("STOPPED")
+    })
+
+
+</script>
+</html>
